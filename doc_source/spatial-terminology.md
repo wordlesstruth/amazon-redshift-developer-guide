@@ -35,7 +35,7 @@ A polygon is considered to be valid if any of the following conditions are true:
 Multipoint  
 If not empty, a multipoint is considered to be valid if all points are valid according to the point validity definition\. A multipoint can have duplicate points\.
 
-Multiinestring  
+Multilinestring  
 A multilinestring is considered to be valid if any of the following conditions are true:   
 + The multilinestring is empty; that is, it contains no linestrings\. 
 + All linestrings in a nonempty multilinestring are valid according to the linestring validity definition\. 
